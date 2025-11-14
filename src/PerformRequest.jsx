@@ -18,6 +18,4 @@ export default async function performRequest(path = '/v2/', params = {}) {
 }
 
 const API_KEY = process.env.REACT_APP_API_KEY;
-console.log(API_KEY);
 const API_BASE_URL = process.env.REACT_APP_BASE_URL;
-console.log(API_BASE_URL);
